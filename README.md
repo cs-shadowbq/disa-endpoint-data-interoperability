@@ -1,4 +1,4 @@
-# disa-endpoint-data-interoperability
+
 Endpoint Security Minimum Data Standards Technical Guide
 
 In support of the Department of Defense (DoD) Chief Information Officer (CIO) and United States Cyber Command, DISA Program Executive Office (PEO) Cyber has developed the worksheets contained in this Excel spreadsheet.  The worksheets extend guidance provided in Tab B to the DoD Chief Information Security Officer memorandum, “Endpoint Security Minimum Data Standards and Endpoint Security Criteria,” released on 9 July 2023. The primary objective of this release is to ensure that critical endpoint, device, and compliance data can be consistently represented, cross-referenced, and exchanged, enabling robust asset management and compliance tracking within complex enterprise environments.

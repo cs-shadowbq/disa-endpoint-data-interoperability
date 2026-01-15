@@ -1,0 +1,268 @@
+{
+  "XML_OSStig": [
+    {
+      "Row": 1,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>"
+    },
+    {
+      "Row": 2,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns3:Notify xmlns=\"http://docs.oasis-open.org/wsrf/bf-2\" xmlns:ns2=\"http://www.w3.org/2005/08/addressing\" xmlns:ns4=\"http://docs.oasis-open.org/wsn/t-1\" xmlns:ns3=\"http://docs.oasis-open.org/wsn/b-2\" xmlns:ns6=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/geolocation/0.41\" xmlns:ns5=\"http://metadata.dod.mil/mdr/ns/netops/net_defense/cnd-core/0.41\" xmlns:ns30=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/scan_data/0.41\" xmlns:ns8=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/organization/0.41\" xmlns:ns7=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/assessment_report/0.41\" xmlns:ns13=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/device/0.41\" xmlns:ns9=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/ext_net_data/0.41\" xmlns:ns12=\"urn:us:gov:ic:ism:v2\" xmlns:ns11=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/ops_attributes/0.41\" xmlns:ns10=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/person/0.41\" xmlns:ns17=\"http://metadata.dod.mil/mdr/ns/ia_cnd/pki/x509_cert/3\" xmlns:ns16=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/tagged_value/0.41\" xmlns:ns15=\"http://oval.mitre.org/XMLSchema/oval-system-characteristics-5\" xmlns:ns14=\"http://scap.nist.gov/schema/cpe-record/0.1\" xmlns:ns19=\"http://oval.mitre.org/XMLSchema/oval-results-5\" xmlns:ns18=\"http://oval.mitre.org/XMLSchema/oval-common-5\" xmlns:ns20=\"http://oval.mitre.org/XMLSchema/oval-definitions-5\" xmlns:ns24=\"http://cpe.mitre.org/XMLSchema/cpe/1.0\" xmlns:ns23=\"http://checklists.nist.gov/xccdf/1.1\" xmlns:ns22=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/assessment/0.41\" xmlns:ns21=\"http://www.w3.org/2000/09/xmldsig#\" xmlns:ns28=\"http://metadata.dod.mil/mdr/ns/netops/net_defense/EventSummary/0.42\" xmlns:ns27=\"http://cpe.mitre.org/language/2.0\" xmlns:ns26=\"http://checklists.nist.gov/xccdf-p/1.1\" xmlns:ns25=\"http://www.cisecurity.org/xccdf/platform/0.2.3\" xmlns:ns29=\"http://metadata.dod.mil/mdr/ns/netops/net_defense/summary_res/0.41\">"
+    },
+    {
+      "Row": 3,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns3:NotificationMessage>"
+    },
+    {
+      "Row": 4,
+      "Comments": null,
+      "MDER_Ref": "7.2.1",
+      "XML": "<ns3:Topic Dialect=\"http://docs.oasis-open.org/wsn/t-1/TopicExpression/Simple\">HBSS.BENCHMARK#xccdf_mil.disa.stig_benchmark_Windows_Server_2016_STIG.CHANGES.BASELINE.PA</ns3:Topic>"
+    },
+    {
+      "Row": 5,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns3:ProducerReference>"
+    },
+    {
+      "Row": 6,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns2:Address>joes.epo510.test.publisher.mil</ns2:Address>"
+    },
+    {
+      "Row": 7,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns2:Metadata>"
+    },
+    {
+      "Row": 8,
+      "Comments": null,
+      "MDER_Ref": "7.2.1",
+      "XML": "<ns16:taggedString name=\"Benchmark Name\" value=\"xccdf_mil.disa.stig_benchmark_Windows_Server_2016_STIG\"/>"
+    },
+    {
+      "Row": 9,
+      "Comments": null,
+      "MDER_Ref": "7.2.2",
+      "XML": "<ns16:taggedString name=\"Benchmark Version\" value=\"002.005\"/>"
+    },
+    {
+      "Row": 10,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"Benchmark Profile\" value=\"xccdf_mil.disa.stig_profile_MAC-2_Sensitive\"/>"
+    },
+    {
+      "Row": 11,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns2:MessageID>joes.epo510.test.publisher.mil:HBSS.BENCHMARK#xccdf_mil.disa.stig_benchmark_Windows_Server_2016_STIG.CHANGES.BASELINE.PA:local:134</ns2:MessageID>"
+    },
+    {
+      "Row": 12,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns16:taggedString name=\"HBSS APS Version\" value=\"2.0.14.9\"/>"
+    },
+    {
+      "Row": 13,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns16:taggedString name=\"Message Number\" value=\"1\"/>"
+    },
+    {
+      "Row": 14,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns16:taggedString name=\"Final Message Marker\" value=\"true\"/>"
+    },
+    {
+      "Row": 15,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns16:taggedString name=\"VDI Strategy\" value=\"Include All\"/>"
+    },
+    {
+      "Row": 16,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns2:Metadata>"
+    },
+    {
+      "Row": 17,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns3:ProducerReference>"
+    },
+    {
+      "Row": 18,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns3:Message>"
+    },
+    {
+      "Row": 19,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns7:AssessmentReport>"
+    },
+    {
+      "Row": 20,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns7:reportObject>"
+    },
+    {
+      "Row": 21,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns7:device timestamp=\"2024-11-01T11:07:56\">"
+    },
+    {
+      "Row": 22,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns13:device_ID>"
+    },
+    {
+      "Row": 23,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns5:resource>joes.epo510.test.publisher.mil</ns5:resource>"
+    },
+    {
+      "Row": 24,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns5:record_identifier>20</ns5:record_identifier>"
+    },
+    {
+      "Row": 25,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns13:device_ID>"
+    },
+    {
+      "Row": 26,
+      "Comments": "Unless the tool tracks firstSeen by rule, the timestamp on row 21 can be inherited, so no requirement to put one in.",
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224828r569186_rule\" value=\"pass\" timestamp=\"2024-09-09T00:00:00\"/>"
+    },
+    {
+      "Row": 27,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224831r569186_rule\" value=\"pass\" status=\"false\"/>"
+    },
+    {
+      "Row": 28,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224850r569186_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 29,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224851r569186_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 30,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224852r569186_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 31,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224853r569186_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 32,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224854r569186_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 33,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224855r569186_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 34,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224856r569186_rule\" value=\"fail\"/>"
+    },
+    {
+      "Row": 35,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224857r569186_rule\" value=\"fail\"/>"
+    },
+    {
+      "Row": 36,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224858r569186_rule\" value=\"fail\"/>"
+    },
+    {
+      "Row": 37,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224859r569186_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 38,
+      "Comments": null,
+      "MDER_Ref": "7.2.3",
+      "XML": "<ns16:taggedString name=\"xccdf_mil.disa.stig_rule_SV-224866r852301_rule\" value=\"pass\"/>"
+    },
+    {
+      "Row": 39,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns7:device>"
+    },
+    {
+      "Row": 40,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns7:reportObject>"
+    },
+    {
+      "Row": 41,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns7:AssessmentReport>"
+    },
+    {
+      "Row": 42,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns3:Message>"
+    },
+    {
+      "Row": 43,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns3:NotificationMessage>"
+    },
+    {
+      "Row": 44,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns3:Notify>"
+    }
+  ]
+}

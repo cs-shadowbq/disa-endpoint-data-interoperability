@@ -1,0 +1,232 @@
+{
+  "XML_OpenPorts": [
+    {
+      "Row": 1,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<Notify xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://docs.oasis-open.org/wsn/b-2\" xmlns:ns5=\"http://metadata.dod.mil/mdr/ns/netops/net_defense/cnd-core/0.41\" xmlns:ns13=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/device/0.41\" xmlns:ns7=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/assessment_report/0.41\" xmlns:ns16=\"http://metadata.dod.mil/mdr/ns/netops/shared_data/tagged_value/0.41\" >"
+    },
+    {
+      "Row": 2,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<NotificationMessage>"
+    },
+    {
+      "Row": 3,
+      "Comments": null,
+      "MDER_Ref": "1.4.1",
+      "XML": "<Topic Dialect=\"http://docs.oasis-open.org/wsn/t-1/TopicExpression/Simple\">PublishProduct.BENCHMARK#ListeningPorts.CHANGES.BASELINE.Sensor</Topic>"
+    },
+    {
+      "Row": 4,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ProducerReference>"
+    },
+    {
+      "Row": 5,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<Address xmlns=\"http://www.w3.org/2005/08/addressing\">SomeDodPublisher.some.domain.dod.mil</Address>"
+    },
+    {
+      "Row": 6,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<Metadata xmlns=\"http://www.w3.org/2005/08/addressing\">"
+    },
+    {
+      "Row": 7,
+      "Comments": null,
+      "MDER_Ref": "1.4.1",
+      "XML": "<ns16:taggedString value=\"ListeningPorts\" name=\"Benchmark Name\" />"
+    },
+    {
+      "Row": 8,
+      "Comments": null,
+      "MDER_Ref": "1.4.2",
+      "XML": "<ns16:taggedString value=\"001\" name=\"Benchmark Version\" />"
+    },
+    {
+      "Row": 9,
+      "Comments": null,
+      "MDER_Ref": "1.4.3",
+      "XML": "<ns16:taggedString value=\"DISA_Initial\" name=\"Benchmark Profile\" />"
+    },
+    {
+      "Row": 10,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns2:MessageID xmlns:ns2=\"http://www.w3.org/2005/08/addressing\">SomeDodPublisher.some.domain.dod.mil:PublishProduct.BENCHMARK#ListeningPorts.CHANGES.BASELINE.Sensor:local:44</ns2:MessageID>"
+    },
+    {
+      "Row": 11,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns16:taggedString value=\"1.0\" name=\"Publishing App Version\" />"
+    },
+    {
+      "Row": 12,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns16:taggedString value=\"1\" name=\"Message Number\" />"
+    },
+    {
+      "Row": 13,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns16:taggedString value=\"true\" name=\"Final Message Marker\" />"
+    },
+    {
+      "Row": 14,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</Metadata>"
+    },
+    {
+      "Row": 15,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ProducerReference>"
+    },
+    {
+      "Row": 16,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<Message>"
+    },
+    {
+      "Row": 17,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns7:AssessmentReport >"
+    },
+    {
+      "Row": 18,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns7:reportObject>"
+    },
+    {
+      "Row": 19,
+      "Comments": null,
+      "MDER_Ref": "1.4.1",
+      "XML": "<ns7:device timestamp=\"2025-05-30T13:55:40\">"
+    },
+    {
+      "Row": 20,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns13:device_ID >"
+    },
+    {
+      "Row": 21,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns5:resource >SomeDodPublisher.some.domain.dod.mil</ns5:resource>"
+    },
+    {
+      "Row": 22,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "<ns5:record_identifier >1111</ns5:record_identifier>"
+    },
+    {
+      "Row": 23,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns13:device_ID>"
+    },
+    {
+      "Row": 24,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00006129--DWRCS--dwrcs.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 25,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00004767--PanGPS--PanGPS.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 26,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00049672--jhi_service--jhi_service.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 27,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00049671--spoolsv--spoolsv.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 28,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00016992--LMS--LMS.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 29,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00000623--LMS--LMS.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 30,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00049668--svchost--svchost.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 31,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00049670--svchost--svchost.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 32,
+      "Comments": null,
+      "MDER_Ref": "1.4.4-6",
+      "XML": "<ns16:taggedString name=\"rule port00042050--Microsoft.SharePoint--Microsoft.SharePoint.exe\" value=\"informational\" />"
+    },
+    {
+      "Row": 33,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns7:device>"
+    },
+    {
+      "Row": 34,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns7:reportObject>"
+    },
+    {
+      "Row": 35,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</ns7:AssessmentReport>"
+    },
+    {
+      "Row": 36,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</Message>"
+    },
+    {
+      "Row": 37,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</NotificationMessage>"
+    },
+    {
+      "Row": 38,
+      "Comments": null,
+      "MDER_Ref": null,
+      "XML": "</Notify>"
+    }
+  ]
+}

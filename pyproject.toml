@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "XLS-extractor"
+version = "0.1.0"
+description = "CLI tool for extracting XLS to JSON"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "cs-shadowbq" }]
+dependencies = ["openpyxl>=3.0.0", "rich>=10.0.0"]
+
+[project.optional-dependencies]
+dev = ["packaging", "rich"]
+test = ["pytest>=8.3.5", "pytest-cov", "jsonschema"]
+
+[project.scripts]
+xls-extractor = "xls_extractor.__main__:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
